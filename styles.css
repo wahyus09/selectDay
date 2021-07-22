@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Lucida Sans', sans-serif;
+}
+.container {
+    background-color: rgb(240, 236, 236);
+    padding: 15px 0px;
+    width: 100%;    
+}
+div ul{
+     background-color: silver;
+     margin: 30px 0px;
+     padding: 5px;
+}
+div ul li{
+    display: inline-block;
+}
+div ul li button{
+    background-color: rgb(31, 210, 223);
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px 20px;
+    padding: 10px;
+}
+div ul li button:hover{
+    outline: 1px solid white;
+    box-shadow: 1px 1px 10px black;
+}
+span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.today{
+    color: green;
+}
+.selectDay{
+    color: rgb(31, 210, 223);
+}
+.green-box{
+    background-color: rgb(44, 134, 44);
+}
